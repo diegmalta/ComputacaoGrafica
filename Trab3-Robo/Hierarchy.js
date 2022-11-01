@@ -396,7 +396,7 @@ function handleKeyPress(event) {
                 .translate(0, -2.5, -1.0);
             shinMatrix.setTranslate(0, -7, 0).multiply(currentShin);
             break;
-        case "x":
+        case "X":
             LeftShinAngle -= 15;
             var currentShin = new Matrix4()
                 .setTranslate(0, 2.5, 1.0)
